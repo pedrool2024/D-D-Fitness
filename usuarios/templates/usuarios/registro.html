@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'usuarios/css/registro.css' %}">
+</head>
+
+<body>
+    <div class="geral">
+
+        <div class="container">
+            <h1>
+                Faça <span>Seu Cadastro!</span>
+            </h1><br>
+        </div>
+
+        <div class="registro">
+
+            <form onsubmit="registrar(event)">
+
+                <input type="text" id="nome" placeholder="Digite o seu nome completo" required><br><br>
+
+                <input type="email" id="email" placeholder="Digite seu e-mail" required><br><br>
+
+                <input type="email" id="email2" placeholder="Digite seu e-mail novamente" required><br><br>
+
+                <input type="text" id="cpf" placeholder="Digite seu cpf" required><br><br>
+
+                <input type="password" id="senha" placeholder="Crie uma senha" required><br><br>
+
+                <input type="password" id="senha2" placeholder="Digite a senha novamente" required><br><br>
+
+
+                <button type="submit">Criar Conta</button>
+
+            </form><br><br>
+        </div>
+
+    </div>
+
+    <div id="popupSucesso" class="popup">
+        <div class="popup-content">
+            <h2>✅ Conta criada!</h2>
+            <p>Agora você já pode fazer login</p>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

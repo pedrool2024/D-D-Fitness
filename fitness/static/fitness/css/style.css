@@ -1,0 +1,428 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    html,
+    body {
+        height: 100%;
+    }
+    
+    .principal {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.750), rgba(0, 0, 0, 0.750)), url(../imagens/imagens/novo-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 50%;
+    }
+    
+    .nome {
+        color: white;
+        font-size: 22px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 0.8;
+        margin: 10px;
+        text-align: center;
+    }
+    /*NOME DO APLICATIVO*/
+    
+    span {
+        color: #9EFF00;
+    }
+    /*PARTE BRANCA DO NOME DO APLICATIVO*/
+    
+    .header {
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    /*BOTÕES DE CIMA*/
+    
+    .nav {
+        display: flex;
+        gap: 30px;
+        left: 30%;
+        position: absolute;
+        position: fixed;
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: "Oswald", sans-serif;
+        cursor: pointer;
+        text-align: center;
+        align-items: center;
+    }
+    /*BOTÕES DE NAVEGAÇÃO*/
+    
+    .container {
+        color: white;
+        text-align: left;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-weight: bold;
+        margin-top: 10px;
+        line-height: 1.0;
+        letter-spacing: 2px;
+        margin-left: 5px;
+    }
+    /*PARAGRAFO EMBAIXO DO TÍTULO PRINCIPAL*/
+    
+    .saudavel {
+        margin-top: 30px;
+        color: white;
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    
+    .evolucao {
+        color: #9EFF00;
+    }
+    
+    .fitness {
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 3px;
+        color: white;
+    }
+    
+    button {
+        margin-top: 30px;
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 15px;
+        width: 310px;
+        text-align: center;
+        background-color: #73ff00;
+        color: black;
+        padding: 5px 0px;
+        margin-left: 5px;
+    }
+    
+    .seçao {
+        display: flex;
+        gap: 20px;
+        color: white;
+        margin-left: 5px;
+    }
+    
+    .xp {
+        padding: 10px 10px;
+        background: #aaaaaa11;
+        width: 550px;
+        font-size: 14px;
+        margin: 15px 0;
+        border-radius: 15px;
+    }
+    
+    .medida {
+        padding: 10px 10px;
+        background: #aaaaaa11;
+        width: 550px;
+        font-size: 14px;
+        margin: 15px 0;
+        border-radius: 15px;
+    }
+    
+    .motivacao {
+        padding: 10px 10px;
+        background: #aaaaaa11;
+        width: 550px;
+        font-size: 14px;
+        margin: 15px 0;
+        border-radius: 15px;
+    }
+    
+    .treino,
+    .plano,
+    .missoes {
+        color: white;
+        font-size: 20px;
+    }
+    
+    p {
+        color: white;
+    }
+    
+    img {
+        width: 35px;
+    }
+    
+    .motivo {
+        padding: 20px 0px;
+        color: white;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .parte2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.550), rgba(0, 0, 0, 0.550)), url(../imagens/imagens/background-novo2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 50%;
+    }
+    
+    .progresso {
+        padding: 10px 10px;
+        color: white;
+        background-color: #0000005d;
+        width: 550px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+    
+    .acompanhe,
+    .personalizado,
+    .transforme,
+    .mantenha {
+        font-size: 20px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+    
+    .inteligente {
+        padding: 10px 10px;
+        color: white;
+        background-color: #0000005d;
+        width: 550px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+    
+    .seçao2,
+    .seçao3 {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-weight: bold;
+    }
+    
+    .sistema {
+        padding: 10px 10px;
+        color: white;
+        background-color: #0000005d;
+        width: 550px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+    
+    .constante {
+        padding: 10px 10px;
+        color: white;
+        background-color: #0000005d;
+        width: 550px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+    
+    .seçao4 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.550), rgba(0, 0, 0, 0.550)), url(../imagens/imagens/background-novo3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 50%;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .funciona {
+        color: white;
+        padding: 50px 0px;
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .conta,
+    .objetivo,
+    .receba,
+    .ganhe {
+        padding: 10px 10px;
+        color: white;
+        background-color: #0000005d;
+        width: 400px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+    
+    .text1,
+    .text2 {
+        padding: 20px 0px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .alinhar {
+        display: flex;
+    }
+    
+    .seçao5 {
+        background-image: url(../imagens/imagens/image4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .ultimo {
+        color: white;
+        padding: 50px 0px;
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .treino-container,
+    .treino-container2 {
+        padding: 20px 0px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hipertrofia {
+        padding: 10px 10px;
+        color: white;
+        background-color: #0000005d;
+        width: 300px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+    
+    .emagrecer {
+        padding: 10px 10px;
+        color: white;
+        background-color: #0000005d;
+        width: 300px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+    
+    .funcional {
+        padding: 10px 10px;
+        color: white;
+        background-color: #0000005d;
+        width: 300px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+    
+    .resistencia {
+        padding: 10px 10px;
+        color: white;
+        background-color: #0000005d;
+        width: 300px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+    
+    .ultima-frase {
+        color: #aaa;
+        font-weight: 400;
+    }
+    
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 35px;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    #btnTopo {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background-color: #9EFF00;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+        display: none;
+        /* começa escondido */
+        z-index: 1000;
+    }
+    
+    #btnTopo:hover {
+        background-color: #73ff00;
+    }
+    
+    .h2-inicio {
+        color: white;
+    }
+    
+    .h2-inicio:hover {
+        color: #73ff00;
+        transition-duration: 0.4s;
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 5px;
+    }
+    
+    .h2-sobre {
+        color: white;
+    }
+    
+    .h2-sobre:hover {
+        color: #73ff00;
+        transition-duration: 0.4s;
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 5px;
+    }
+    
+    .h2-beneficios {
+        color: white;
+    }
+    
+    .h2-beneficios:hover {
+        color: #73ff00;
+        transition-duration: 0.4s;
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 5px;
+    }
+    
+    .h2-funciona {
+        color: white;
+    }
+    
+    .h2-funciona:hover {
+        color: #73ff00;
+        transition-duration: 0.4s;
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 5px;
+    }
+    
+    .h2-treino {
+        color: white;
+    }
+    
+    .h2-treino:hover {
+        color: #73ff00;
+        transition-duration: 0.4s;
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 5px;
+    }
+    
+    .começar {
+        color: black;
+    }
